@@ -1,0 +1,99 @@
+import React from 'react'
+import './AboutPage.scss'
+
+const AboutPage = () => {
+    return (
+        <body>
+            <header class='header'>
+                <nav class='nav'>
+                    <div class='switch-btn' id='about-switcher'></div>
+                    <div>
+                        <a class='nav__link' href='index.html'>
+                            Projects
+                        </a>
+                        <a class='nav__link' href='about.html'>
+                            About
+                        </a>
+                    </div>
+                </nav>
+            </header>
+
+            <main>
+                <div class='container1'>
+                    <div>
+                        <h1>Hi I’m Frolov Danila, fronted developer</h1>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry. Lorem Ipsum has been the
+                            industry's standard dummy text ever since the 1500s,
+                            when an unknown printer took a galley of type and
+                            scrambled it to make a type specimen book. It has
+                            survived not only five centuries, but also the leap
+                            into electronic typesetting,
+                        </p>
+                    </div>
+                    <div>
+                        <img src='./resources/img/Me.png' alt='Danila Frolov' />
+                    </div>
+                </div>
+
+                <div class='container2'>
+                    <div class='container2__parts'>
+                        <div class='container2__parts__flex1'>
+                            Programming language
+                        </div>
+                        <div class='container2__parts__flex2'>JavaScript</div>
+                    </div>
+                    <div class='container2__parts'>
+                        <div class='container2__parts__flex1'>My stack</div>
+                        <div class='container2__parts__flex2'>
+                            JS ES6+, HTML5, CSS3, SCSS, React, Git, Gulp,
+                            Laravel mix, Webpack
+                        </div>
+                    </div>
+                    <div class='container2__parts'>
+                        <div class='container2__parts__flex1'>Extra</div>
+                        <div class='container2__parts__flex2'>
+                            Adobe XD, Figma
+                        </div>
+                    </div>
+                </div>
+            </main>
+
+            <div class='prefooter'>
+                <div class='prefooter__line'></div>
+                <div class='prefooter__flex'>
+                    <div class='prefooter__text'>
+                        I am thrilled to answer to your next project
+                    </div>
+                    <div class='prefooter__mail-resume'>
+                        <a
+                            class='prefooter__email'
+                            href='mailto:frolovdan94@gmail.com'
+                        >
+                            frolovdan94@gmail.com
+                        </a>
+                        <a class='prefooter__resume' href='#'>
+                            View my resume
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <footer class='footer'>
+                <div class='footer__container'>
+                    <div class='footer__name'>Danila Frolov — 2022</div>
+                    <div>
+                        <a href='#'>Github</a>
+                        <a href='#'>WhatsApp</a>
+                        <a href='#'>Telegram</a>
+                        <a href='#'>LinkedIn</a>
+                        <a href='#'>Skype</a>
+                    </div>
+                </div>
+            </footer>
+        </body>
+    )
+}
+
+export default AboutPage
